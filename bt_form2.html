@@ -13,22 +13,24 @@
             <th></th>
             <th></th>
         </tr>
-        <tr>
+        <tr id="name">
             <td>Họ và tên</td>
             <td><input type="text"></td>
         </tr>
-        <tr>
+        <tr id="birth">
             <td>Ngày sinh</td>
             <td><input type="text"></td>
         </tr>
-        <tr>
+        <tr id="sex">
             <td>Giới tính</td>
             <td>
-                <input type="radio" name="" id="">Nam
-                <input type="radio" name="" id="">Nữ
+                <form action="">
+                    <input type="radio" name="sex" id="nam">Nam
+                    <input type="radio" name="sex" id="nu">Nữ
+                </form>
             </td>
         </tr>
-        <tr>
+        <tr id="address">
             <td>Địa chỉ</td>
             <td>
                 <form action="">
@@ -36,25 +38,29 @@
                 </form>
             </td>
         </tr>
-        <tr>
+        <tr id="class">
             <td>Lớp</td>
             <td><Select>
                 <option value="">--Chọn lớp--</option>
+                <option value="">10A</option>
+                <option value="">10B</option>
+                <option value="">10C</option>
+                <option value="">10D</option>
             </Select></td>
         </tr>
-        <tr>
+        <tr id="email">
             <td>Email</td>
             <td><input type="text"></td>
         </tr>
-        <tr>
+        <tr id="Tele">
             <td>Điện thoại</td>
             <td><input type="text"></td>
         </tr>
         <tr>
             <td></td>
             <td>
-                <button>Đăng ký</button>
-                <button>Nhập lại</button>
+                <button id="register">Đăng ký</button>
+                <button id="retry">Nhập lại</button>
             </td>
         </tr>
     </table>
